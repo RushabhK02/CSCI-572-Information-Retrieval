@@ -1,0 +1,6 @@
+As part of homework 1, the comparison of the top 10 search results from Google and DuckDuckGo shows that the two search engines rank links using different parameters 
+since the max overlap over 100 queries was a max of 5 results but found in different order. The spearman coefficient value is negative or zero for most of the queries, signifying 
+negative association or no association of ranks of results from the two search engines. This points towards little or no overlap in the ranking algorithm used by the two search 
+engines. The average rho is -3.824 which signifies dissimilar ranking between the results and the magnitude signifies the distance between the ranking of the same result by the 
+search engines. The average overlap across 100 queries was 1.61 results or 16.1 percent, further reinforcing the belief that the two engines prioritize different parameters in 
+their search.

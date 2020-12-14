@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.cs572'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.sleepycat/je
+    compile group: 'com.sleepycat', name: 'je', version: '5.0.84'
+    // https://mvnrepository.com/artifact/edu.uci.ics/crawler4j
+    compile group: 'edu.uci.ics', name: 'crawler4j', version: '4.3'
+    compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
